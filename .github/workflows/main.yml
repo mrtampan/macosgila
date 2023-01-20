@@ -3,9 +3,9 @@ name: macOS
 on: 
   workflow_dispatch:
       inputs:
-      tokenku:
-        description: 'Input ngrok token'
-        required: true
+        tokenku:
+          description: 'Input ngrok token'
+          required: true
 defaults:
   run:
     shell: bash
